@@ -1,9 +1,9 @@
-package Tasks;
+package tasks.hashmap;
 
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class TwoSum {
+public class TwoSum1 {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> numToIndex = new HashMap<>();
         for (int i = 1; i < nums.length; i++) {
@@ -16,7 +16,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        TwoSum solution = new TwoSum();
+        TwoSum1 solution = new TwoSum1();
         int[] nums = {2,7,11,15};
         int target = 9;
 

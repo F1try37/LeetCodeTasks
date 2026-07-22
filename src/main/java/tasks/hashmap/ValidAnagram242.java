@@ -1,4 +1,4 @@
-package Tasks;
+package tasks.hashmap;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package Tasks;
+package tasks.greedy;
 
 public class Task121 {
     public int maxProfit(int[] prices) {

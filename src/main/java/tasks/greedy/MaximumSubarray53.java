@@ -1,4 +1,4 @@
-package Tasks;
+package tasks.greedy;
 
 public class MaximumSubarray53 {
     public int maxSubArray(int[] nums) {

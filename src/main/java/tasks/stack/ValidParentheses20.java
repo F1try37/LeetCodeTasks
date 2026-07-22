@@ -1,8 +1,7 @@
-package Tasks;
+package tasks.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.HashMap;
 import java.util.Map;
 
 public class ValidParentheses20 {

@@ -1,8 +1,8 @@
-package Tasks;
+package tasks.twopointers;
 
 import java.util.ArrayList;
 
-public class ValidPalindrome {
+public class ValidPalindrome125 {
     public boolean isPalindrome(String s) {
         char[] chars = s.toLowerCase().toCharArray();
         ArrayList<Character> result = new ArrayList<>();
@@ -33,7 +33,7 @@ public class ValidPalindrome {
     }
 
     public static void main(String[] args) {
-        ValidPalindrome solution = new ValidPalindrome();
+        ValidPalindrome125 solution = new ValidPalindrome125();
         String s = " ";
         System.out.println(solution.isPalindromeTwoPointers(s));
     }
